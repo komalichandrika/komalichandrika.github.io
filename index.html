@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komali Chandrika .Ch - CV</title>
+
+    <style>
+        /* CSS styles here */
+        body {
+            text-align: left; /* Center align the content */
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-header {
+            background-color: #0077b5;
+            color: #fff;
+            padding: 15px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            cursor: pointer;
+        }
+
+        .section-content {
+            padding: 15px;
+            display: none;
+        }
+
+        .section-content p {
+            margin-bottom: 10px;
+        }
+
+        .linkedin-box {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .linkedin-link {
+            background-color: #0077b5;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .linkedin-link:hover {
+            background-color: #00405a;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Komali Chandrika .Ch</h1>
+<img src="C:\Users\Admin\Downloads\photo_cv.png" alt="Profile Picture" style="display: block; margin: 0 auto;">
+
+<div class="section">
+    <div class="section-header" onclick="toggleSection('academic-details')">ACADEMIC DETAILS</div>
+    <div class="section-content" id="academic-details">
+        <p>M. Sc Molecular Biology and Biotechnology from SRM University with 9.76 CGPA in first semester</p>
+        <p>B. Sc Life Science with aggregate of 8.82 from Maris Stella College (Krishna University)</p>
+        <p>Intermediate (Bi.P.C.) with aggregate of 9.95 from Sri Chaitanya</p>
+        <p>SSC with aggregate of 9.8 from Triveni Public School</p>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-header" onclick="toggleSection('project-details')">PROJECT DETAILS</div>
+    <div class="section-content" id="project-details">
+        <p>Production of phosphate solubilizes from Rhizobium species</p>
+        <p><strong>Description:</strong> The "Production of phosphate solubilizers from Rhizobium species" project aims to develop and optimize methods for cultivating Rhizobium bacteria strains capable of solubilizing phosphates, thereby enhancing nutrient availability for plant growth.</p>
+        <p><strong>Duration:</strong> 60 days</p>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-header" onclick="toggleSection('field-of-interest')">FIELD OF INTEREST</div>
+    <div class="section-content" id="field-of-interest">
+        <p>Medical sciences</p>
+        <p>Cancer Biology</p>
+        <p>Biomedical Engineering and Clinical research</p>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-header" onclick="toggleSection('skills')">SKILLS</div>
+    <div class="section-content" id="skills">
+        <p>PCR</p>
+        <p>Spectroscopy</p>
+        <p>Homology Modelling</p>
+        <p>Docking</p>
+        <p>Language - Python</p>
+        <p>Language - R</p>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-header" onclick="toggleSection('achievements')">ACHIEVEMENTS</div>
+    <div class="section-content" id="achievements">
+        <p>Achieved student of the year award in 10th standard</p>
+        <p>Winner of Stay free Stay Ahead essay competition</p>
+        <p>Was among the top 10 Scorers of our institute in 48th National Mathematics contest</p>
+        <p>Participated in Science Exhibition</p>
+        <p>Got selected for High end Karyashala workshop conducted by ICAR CIPHET (2024) where I got the opportunity to learn the instrumentation of HPLC, Gas Chromatography, LCMS, SEM, TEM.</p>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-header" onclick="toggleSection('languages-known')">LANGUAGES KNOWN</div>
+    <div class="section-content" id="languages-known">
+        <p>Telugu (speaking and writing)</p>
+        <p>English (speaking and writing)</p>
+        <p>Hindi (speaking and writing)</p>
+    </div>
+</div>
+
+<div class="linkedin-box">
+    <a href="https://www.linkedin.com/in/komali-chandrika-cherukuri-65652128a" class="linkedin-link">LinkedIn Profile</a>
+</div>
+
+<script>
+    function toggleSection(sectionId) {
+        var sectionContent = document.getElementById(sectionId);
+        if (sectionContent.style.display === "block") {
+            sectionContent.style.display = "none";
+        } else {
+            sectionContent.style.display = "block";
+        }
+    }
+</script>
+
+</body>
+</html>
